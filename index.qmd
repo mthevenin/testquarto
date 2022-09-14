@@ -3,32 +3,70 @@ title: "quarto_github"
 author: "Thevenin_m"
 ---
 
-**Test render Quarto dans github**
+* Une fois installé l'appli git
+  - <https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/>
 
-- Je galère comme il faut avec les commandes gits
-- Voire +
-<<<<<<< HEAD
-- Ca commence à aller mieux
+* Une fois la connection RStudio Github établie
+  - <https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/>
 
+* Une fois de dépôt github et le projet R créé à partir de ce dépôt
+  - <https://www.smaranyadey.com/post/creating-r-markdown-documents-and-publishing-them-using-github-pages>
+  
+* Une fois le contenu créé .qmd, .yml .....
 
-
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
+Pour le début du .yml
+```{r, eval=FALSE}
+project:
+  type: website
+  output-dir: docs
+  
+(...)  
+  
 ```
 
-You can add options to executable code like this 
-
-```{r}
-#| echo: false
-2 * 2
+Avec la présence d'un thème, ajouter un fichier *nojekyll* à partir du **terminal**
+```{r, eval=FALSE}
+copy NUL .nojekyll
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
+Création ou mise à jour du site. Dans le **terminal**
+
+```{r, eval=FALSE}
+quarto render
+```
+
+Recherche des fichiers modifiés.  Dans le **terminal**
+
+```{r, eval=FALSE}
+git status
+```
+
+Ajout des fichiers à synchroniser:   Dans le **terminal**
+
+
+Tous les fichiers du projet
+```{r, eval=FALSE}
+git add .
+```
+
+Le ou les fichiers
+```{r, eval=FALSE}
+git add nom_fichier ....
+```
+
+En haut à droite, aller dans l'onglet git, puis dans commit. Les fichiers doivent apparaître. Renseigner le commit.  
+
+Optionnel ou non, je n'ai pas encore la certitude, dans le terminal: 
+
+```{r, eval=FALSE}
+git push
+```
+
+
+
+
+
+
+
+
