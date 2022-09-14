@@ -69,6 +69,7 @@ git add nom_fichier ....
 git push
 ```
 
+Ou appuyer sur **push** dans la fenêtre *commit*
 
 
 
