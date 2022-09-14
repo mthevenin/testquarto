@@ -6,6 +6,7 @@ author: "Thevenin_m"
 **Test render Quarto dans github**
 
 - Je galère comme il faut avec les commandes gits
+- Voire +
 
 
 ## Quarto
