@@ -15,7 +15,7 @@ Doc officielle:
 * Une fois la connection RStudio Github établie
   - <https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/>
 
-* Une fois de dépôt github et le projet R créé à partir de ce dépôt
+* Une fois le dépôt github et le projet R créés à partir de ce dépôt
   - <https://www.smaranyadey.com/post/creating-r-markdown-documents-and-publishing-them-using-github-pages>
   
 * Une fois le contenu créé .qmd, .yml .....
