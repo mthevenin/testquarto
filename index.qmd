@@ -3,6 +3,12 @@ title: "quarto_github"
 author: "Thevenin_m"
 ---
 
+
+Doc officielle: 
+
+[Github & RStudio](https://resources.github.com/github-and-rstudio/)
+
+
 * Une fois installé l'appli git
   - <https://thinkr.fr/travailler-avec-git-via-rstudio-et-versionner-son-code/>
 
@@ -24,26 +30,26 @@ project:
   
 ```
 
-Avec la présence d'un thème, ajouter un fichier *nojekyll* à partir du **terminal**
+* Avec la présence d'un thème, ajouter un fichier *nojekyll* à partir du **terminal**
+
 ```{r, eval=FALSE}
 copy NUL .nojekyll
 ```
 
 
-Création ou mise à jour du site. Dans le **terminal**
+* Création ou mise à jour du site. Dans le **terminal**
 
 ```{r, eval=FALSE}
 quarto render
 ```
 
-Recherche des fichiers modifiés.  Dans le **terminal**
+* Recherche des fichiers modifiés.  Dans le **terminal**
 
 ```{r, eval=FALSE}
 git status
 ```
 
-Ajout des fichiers à synchroniser:   Dans le **terminal**
-
+* Ajout des fichiers à synchroniser:   Dans le **terminal**
 
 Tous les fichiers du projet
 ```{r, eval=FALSE}
@@ -55,14 +61,16 @@ Le ou les fichiers
 git add nom_fichier ....
 ```
 
-En haut à droite, aller dans l'onglet git, puis dans commit. Les fichiers doivent apparaître. Renseigner le commit.  
+* En haut à droite, aller dans l'onglet git, puis dans commit. Les fichiers doivent apparaître. Renseigner le commit.  
 
-Optionnel ou non, je n'ai pas encore la certitude, dans le terminal: 
+* Optionnel ou non, je n'ai pas encore la certitude, dans le terminal: 
 
 ```{r, eval=FALSE}
 git push
 ```
 
+
+Lire aussi 
 
 
 
