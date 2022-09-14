@@ -1,6 +1,4 @@
-# testquarto
+*14 Septembre 2022*   
 
 
-
-* AAAAAAA
-* BBBBBBB
+Un pense bête pour la synchro Rsudio/Github avec Quarto (mais idem avec le RMD)
