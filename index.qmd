@@ -7,7 +7,10 @@ author: "Thevenin_m"
 
 - Je galère comme il faut avec les commandes gits
 - Voire +
+<<<<<<< HEAD
 - Ca commence à aller mieux
+=======
+>>>>>>> 2bf57e2247616fcfaf0c7d90d03eccbe85be1fa7
 
 
 ## Quarto
